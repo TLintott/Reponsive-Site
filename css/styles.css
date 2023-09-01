@@ -1,0 +1,186 @@
+:root{
+    --accent-color: #72bcd4;
+    --link1-color: #d472bc;
+    --shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+}
+
+.container{
+
+    margin:60px auto;
+ 
+}
+
+h1, h2, h3{
+    text-align: center;
+        margin: 0;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2{
+   
+    padding-top: 20px;
+    font-size: 48px; 
+}
+
+
+h3{
+font-size: 24px;
+opacity: 0.7;
+padding-top: 10px;
+}
+
+.nav-links{
+margin-top: 40px;
+display:flex;  
+justify-content: center;
+
+}
+
+
+.contact-link{
+    padding: 20px 15px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--link1-color);
+    background-color: var(--link1-color);
+    text-decoration: none;
+    color: white;
+    box-shadow: var(--shadow);
+
+}
+
+.contact-link:hover{
+    color: var(--link1-color);
+    background-color: #fff;
+}
+
+.about-link{
+    padding: 20px 15px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    text-decoration: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.about-link:hover {
+    color: var(--accent-color);
+    background-color: #fff;
+}
+
+.home-link {
+
+    text-align: center;
+    color:var(--link1-color);
+    display: block;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.app-link{
+border-radius: 4px;
+    border: 1px solid var(--link1-color);
+    background-color: var(--link1-color);
+    text-decoration: none;
+    color: white;
+    box-shadow: var(--shadow);
+    padding: 20px 15px;
+}
+
+.app-link:hover{
+ color: var(--link1-color);
+ background-color: #fff;
+}
+
+
+
+.app-btn{
+
+margin-left: 10px;
+
+}
+
+
+.about-text p{
+margin: 10px;
+
+}
+.grid-title{
+    font-size: 48px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.img-fluid{
+max-width: 100%;
+height: auto;
+}
+
+
+
+p{
+
+margin:10px;
+border-radius: 5px;
+font-size: 18px;
+line-height: 1.5;
+
+}
+
+.about-text{
+display: block;
+margin:30px 0;
+text-align: center!important;
+
+}
+
+
+.contact-box {
+    display: block;
+}
+
+.mail-link {
+    display: flex;
+    justify-content: center;
+    color: var(--link1-color);
+}
+
+.body-text{
+    margin-top: 60px;
+}
+
+
+
+@media (max-width:375px) {
+    h1 {
+        font-size: 45px;
+        padding-bottom: 10px;
+
+    }
+
+    .grid-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+  .app-btn{
+    text-align: center;
+  }
+    h2{
+
+    font-size: 35px;
+    }
+}
